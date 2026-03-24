@@ -216,3 +216,128 @@ section{padding:60px 0}
   .combo-body{grid-template-columns:1fr 340px}
   .day-tabs{justify-content:space-between;gap:0}
 }
+
+/* ── MODAL STYLES ── */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  backdrop-filter: blur(8px);
+}
+
+.modal-box {
+  background: linear-gradient(145deg, #1a1a1a 0%, #0d0d0d 100%);
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  padding: 40px 48px;
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 0 60px rgba(255, 0, 68, 0.3);
+}
+
+.modal-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 28px;
+  color: var(--accent);
+  margin: 0 0 8px;
+  letter-spacing: 2px;
+}
+
+.modal-subtitle {
+  color: #888;
+  font-size: 14px;
+  margin: 0 0 28px;
+}
+
+.modal-input {
+  width: 100%;
+  padding: 14px 16px;
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 4px;
+  color: #fff;
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 4px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.modal-input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 12px rgba(255, 0, 68, 0.4);
+}
+
+.modal-btn {
+  width: 100%;
+  padding: 14px;
+  background: var(--accent);
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 18px;
+  letter-spacing: 3px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.modal-btn:hover {
+  background: #e6005c;
+  transform: scale(1.02);
+  box-shadow: 0 0 20px rgba(255, 0, 68, 0.5);
+}
+
+.modal-error {
+  color: #ff4444;
+  font-size: 13px;
+  margin: 12px 0 0;
+  min-height: 18px;
+}
+
+.loader-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 13, 26, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.loader-content {
+  text-align: center;
+}
+
+.loader-spinner {
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  border-top-color: #FF1744;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 20px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.loader-text {
+  font-family: var(--font-sub);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  color: var(--accent);
+  text-transform: uppercase;
+}

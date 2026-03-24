@@ -1,0 +1,13 @@
+{
+  "name": "trainer-arbert",
+  "version": "1.0.0",
+  "description": "Sitio web del programa de entrenamiento Entrenador Arbert",
+  "scripts": {
+    "dev": "http-server . -p 3000 -o",
+    "start": "http-server . -p 3000"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "sharp": "^0.34.5"
+  }
+}
