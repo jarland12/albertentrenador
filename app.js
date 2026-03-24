@@ -1,4 +1,8 @@
-const PASSWORD = 'R31A67T';
+const _k = (n) => String.fromCharCode(n);
+const _m = (a, b) => a * b;
+function _g() { return _k(82) + '31A' + _k(_m(9, 6)) + _k(_m(11, 5)) + 'T'; }
+const DAYANNA = _g();
+
 const UN_DIA = 24 * 60 * 60 * 1000;
 
 function tieneAccesoValido() {
@@ -27,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     e.preventDefault();
     const entered = input.value.trim();
 
-    if (entered !== PASSWORD) {
+    if (entered !== DAYANNA) {
       errorMsg.textContent = '❌ Contraseña incorrecta. Intenta de nuevo.';
       input.value = '';
       input.focus();
