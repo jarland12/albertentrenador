@@ -118,6 +118,22 @@ function initApp() {
 
   document.querySelectorAll('.reveal, .stat-num[data-target], .progress-bar-fill').forEach(el => observer.observe(el));
 
+  // --- LAZY LOADING PARA VIDEOS ---
+  const videoObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const iframe = entry.target.querySelector('iframe');
+        if (iframe && iframe.dataset.src) {
+          iframe.src = iframe.dataset.src;
+          iframe.removeAttribute('data-src');
+        }
+        videoObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '200px' });
+
+  document.querySelectorAll('.video-wrap').forEach(wrap => videoObserver.observe(wrap));
+
   document.querySelectorAll('a[href^="#"]').forEach(a => {
     a.addEventListener('click', e => {
       e.preventDefault();

@@ -76,21 +76,21 @@ const CONTENIDO = `
         <div class="warm-video-card reveal">
           <h3>Movilidad Articular</h3>
           <div class="video-wrap vertical">
-            <iframe src="https://www.youtube.com/embed/kAiYHnqaaYs" allowfullscreen
+            <iframe data-src="https://www.youtube.com/embed/kAiYHnqaaYs" allowfullscreen
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
           </div>
         </div>
         <div class="warm-video-card reveal">
           <h3>Estiramiento Tren Superior</h3>
           <div class="video-wrap vertical">
-            <iframe src="https://www.youtube.com/embed/uCBDHpNfjxQ" allowfullscreen
+            <iframe data-src="https://www.youtube.com/embed/uCBDHpNfjxQ" allowfullscreen
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
           </div>
         </div>
         <div class="warm-video-card reveal">
           <h3>Movilidad de Pierna</h3>
           <div class="video-wrap vertical">
-            <iframe src="https://www.youtube.com/embed/rSHms8_UZH8" allowfullscreen
+            <iframe data-src="https://www.youtube.com/embed/rSHms8_UZH8" allowfullscreen
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
           </div>
         </div>
@@ -168,7 +168,7 @@ const CONTENIDO = `
               </div>
             </div>
             <div class="video-wrap vertical">
-              <iframe src="https://www.youtube.com/embed/xSwGariOwrY" allowfullscreen
+              <iframe data-src="https://www.youtube.com/embed/xSwGariOwrY" allowfullscreen
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
             </div>
           </div>
@@ -189,7 +189,7 @@ const CONTENIDO = `
               </div>
             </div>
             <div class="video-wrap vertical">
-              <iframe src="https://www.youtube.com/embed/tlPWBJIeJH4" allowfullscreen
+              <iframe data-src="https://www.youtube.com/embed/tlPWBJIeJH4" allowfullscreen
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
             </div>
           </div>
@@ -210,7 +210,7 @@ const CONTENIDO = `
               </div>
             </div>
             <div class="video-wrap vertical">
-              <iframe src="https://www.youtube.com/embed/WROwn76O8I4" allowfullscreen
+              <iframe data-src="https://www.youtube.com/embed/WROwn76O8I4" allowfullscreen
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
             </div>
           </div>
@@ -230,7 +230,7 @@ const CONTENIDO = `
                   lado</span></div>
             </div>
             <div class="video-wrap vertical">
-              <iframe src="https://www.youtube.com/embed/4BtjuDlfiJc" allowfullscreen
+              <iframe data-src="https://www.youtube.com/embed/4BtjuDlfiJc" allowfullscreen
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
             </div>
           </div>
@@ -264,7 +264,7 @@ const CONTENIDO = `
               <div class="ex-row"><span class="ex-name">Superman</span><span class="ex-reps">20 rep</span></div>
             </div>
             <div class="video-wrap vertical">
-              <iframe src="https://www.youtube.com/embed/YLyh-76yCFg" allowfullscreen
+              <iframe data-src="https://www.youtube.com/embed/YLyh-76yCFg" allowfullscreen
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
             </div>
           </div>
@@ -283,7 +283,7 @@ const CONTENIDO = `
               <div class="ex-row"><span class="ex-name">Remo supino</span><span class="ex-reps">15 rep</span></div>
             </div>
             <div class="video-wrap vertical">
-              <iframe src="https://www.youtube.com/embed/qx2bFSCT668" allowfullscreen
+              <iframe data-src="https://www.youtube.com/embed/qx2bFSCT668" allowfullscreen
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
             </div>
           </div>
@@ -303,7 +303,7 @@ const CONTENIDO = `
               <div class="ex-row"><span class="ex-name">Vuelo pecho pie</span><span class="ex-reps">12 rep</span></div>
             </div>
             <div class="video-wrap vertical">
-              <iframe src="https://www.youtube.com/embed/H0_MxE4i8f4" allowfullscreen
+              <iframe data-src="https://www.youtube.com/embed/H0_MxE4i8f4" allowfullscreen
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
             </div>
           </div>
@@ -324,7 +324,7 @@ const CONTENIDO = `
                   rep</span></div>
             </div>
             <div class="video-wrap vertical">
-              <iframe src="https://www.youtube.com/embed/WH9S96NnfRI" allowfullscreen
+              <iframe data-src="https://www.youtube.com/embed/WH9S96NnfRI" allowfullscreen
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
             </div>
           </div>
@@ -359,7 +359,7 @@ const CONTENIDO = `
               </div>
             </div>
             <div class="video-wrap vertical">
-              <iframe src="https://www.youtube.com/embed/NIijMMq06rc" allowfullscreen
+              <iframe data-src="https://www.youtube.com/embed/NIijMMq06rc" allowfullscreen
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
             </div>
           </div>
@@ -379,7 +379,7 @@ const CONTENIDO = `
                   class="ex-reps"></span></div>
             </div>
             <div class="video-wrap vertical">
-              <iframe src="https://www.youtube.com/embed/sGwFggy2Xdo" allowfullscreen
+              <iframe data-src="https://www.youtube.com/embed/sGwFggy2Xdo" allowfullscreen
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
             </div>
           </div>
@@ -399,7 +399,7 @@ const CONTENIDO = `
               </div>
             </div>
             <div class="video-wrap vertical">
-              <iframe src="https://www.youtube.com/embed/cFuy6QmbmzY" allowfullscreen
+              <iframe data-src="https://www.youtube.com/embed/cFuy6QmbmzY" allowfullscreen
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
             </div>
           </div>
@@ -435,7 +435,7 @@ const CONTENIDO = `
               <div class="ex-row"><span class="ex-name">Remo neutro</span><span class="ex-reps">15 rep</span></div>
             </div>
             <div class="video-wrap vertical">
-              <iframe src="https://www.youtube.com/embed/3R4jsecXcOo" allowfullscreen
+              <iframe data-src="https://www.youtube.com/embed/3R4jsecXcOo" allowfullscreen
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
             </div>
           </div>
@@ -454,7 +454,7 @@ const CONTENIDO = `
               <div class="ex-row"><span class="ex-name">Lumbar</span><span class="ex-reps">15 rep</span></div>
             </div>
             <div class="video-wrap vertical">
-              <iframe src="https://www.youtube.com/embed/l_VPkkH43L0" allowfullscreen
+              <iframe data-src="https://www.youtube.com/embed/l_VPkkH43L0" allowfullscreen
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
             </div>
           </div>
@@ -474,7 +474,7 @@ const CONTENIDO = `
               <div class="ex-row"><span class="ex-name">Elevación mentón</span><span class="ex-reps">15 rep</span></div>
             </div>
             <div class="video-wrap vertical">
-              <iframe src="https://www.youtube.com/embed/T4cifs2xFzQ" allowfullscreen
+              <iframe data-src="https://www.youtube.com/embed/T4cifs2xFzQ" allowfullscreen
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
             </div>
           </div>
@@ -508,7 +508,7 @@ const CONTENIDO = `
               <div class="ex-row"><span class="ex-name">Copa pie</span><span class="ex-reps">15 rep</span></div>
             </div>
             <div class="video-wrap vertical">
-              <iframe src="https://www.youtube.com/embed/AEAh5KSbcuI" allowfullscreen
+              <iframe data-src="https://www.youtube.com/embed/AEAh5KSbcuI" allowfullscreen
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
             </div>
           </div>
@@ -527,7 +527,7 @@ const CONTENIDO = `
               </div>
             </div>
             <div class="video-wrap vertical">
-              <iframe src="https://www.youtube.com/embed/A07MU-xDljE" allowfullscreen
+              <iframe data-src="https://www.youtube.com/embed/A07MU-xDljE" allowfullscreen
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
             </div>
           </div>
